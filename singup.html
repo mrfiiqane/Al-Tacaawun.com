@@ -15,7 +15,7 @@
         box-sizing: border-box;
       }
       :root{
-        --bg:#0f1724;            /* dark navy */
+        --bg:#0f1724;           
         --card:#0b1220;
         --muted:#94a3b8;
         --glass: rgba(255,255,255,0.04);
@@ -91,17 +91,17 @@
         text-align: center;
         
       }
-      @media(max-width:480px){
+      @media(max-width:768px){
         .form {
           width: 300px;
-          height: 470px;
+          height: 480px;
           padding: 20px 10px;
         }
       }
 
       .success-message {
-        background-color: white;
-        color: black;
+        background-color: var(--glass);
+        color: wheat;
         text-align: center;
         margin-top: 10px;
       }
