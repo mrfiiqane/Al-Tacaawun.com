@@ -9,7 +9,11 @@
       font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
     }
     *{box-sizing:border-box}
-   
+    html,body{
+      height:10%;
+      width:10%;
+      background-color: #94a3b8;
+    }
     body{
       margin:0;
       background: linear-gradient(180deg,#0a101f 10%, #081424 80%);
@@ -157,7 +161,6 @@
       padding:14px;
       border-radius:12px;
       border:1px solid rgba(255,255,255,0.03);
-      margin: 10px;
     }
     .ann-list{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:10px }
     .ann{

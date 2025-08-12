@@ -153,7 +153,7 @@
 
     /* Sidebar cards */
     .card{
-      background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+      /* background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent); */
       padding:14px;
       border-radius:12px;
       border:1px solid rgba(255,255,255,0.03);

@@ -77,7 +77,7 @@
 
     /* Hero */
     .hero{
-      background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+      background: linear-gradient(180deg, rgba(212, 192, 192, 0.89), transparent);
       border-radius: var(--radius);
       padding:28px;
       display:flex;
@@ -153,7 +153,8 @@
 
     /* Sidebar cards */
     .card{
-      background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+      /* background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent); */
+      background-color: red;
       padding:14px;
       border-radius:12px;
       border:1px solid rgba(255,255,255,0.03);

@@ -130,6 +130,7 @@
       display:grid;
       grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
       gap:14px;
+      background-color: red;
     }
     .course{
       background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
@@ -153,7 +154,8 @@
 
     /* Sidebar cards */
     .card{
-      background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+      /* background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent); */
+      background-color: red;
       padding:14px;
       border-radius:12px;
       border:1px solid rgba(255,255,255,0.03);
