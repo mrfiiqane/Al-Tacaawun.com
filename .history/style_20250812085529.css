@@ -1,7 +1,7 @@
 :root{
       --bg:#0f1724;         
       --card:#0b1220;
-      --accent:#f59f0be8;       
+      --accent:#F59E0B;       
       --muted:#94a3b8;
       --glass: rgba(255,255,255,0.04);
       --radius:14px;
@@ -36,7 +36,7 @@
       align-items:center;
       justify-content:space-between;
       gap:16px;
-      margin: 30px auto;
+      margin-bottom:22px;
     }
     .brand{
       display:flex;
@@ -59,10 +59,10 @@
     }
     h1.site-title{
       margin:0;
-      font-size:20px;
+      font-size:18px;
       letter-spacing:0.2px;
     }
-    p.site-sub{ margin:0; color:var(--muted); font-size:18px }
+    p.site-sub{ margin:0; color:var(--muted); font-size:13px }
 
     nav{
       display:flex;
@@ -72,7 +72,7 @@
     nav a{
       color:var(--muted);
       text-decoration:none;
-      font-weight:800;
+      font-weight:600;
       padding:8px 12px;
       border-radius:10px;
     }
@@ -98,7 +98,7 @@
     .btn{
       background:var(--accent);
       color:#081028;
-      padding:10px;
+      padding:10px 14px;
       border-radius:10px;
       font-weight:700;
       border:none;
